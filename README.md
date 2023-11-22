@@ -1,11 +1,12 @@
-# HAADF-STEM atom localization
+# CNN based atomic detection from HAADF-STEM images
 This code is a modified version of the original code by Mitchell at al.
 https://pubs.acs.org/doi/10.1021/jacs.1c12466
 https://github.com/HPAI-BSC/AtomDetection_ACSTEM
-They work under the same principle but small modifications were applied for the compatibility issue
 
-### Requirements
-This code was tested on python 3.7.6
+This code works under the same principle with the original code, but we are uploading our version because to address the compatibility issue
+
+### Package versions
+The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS
 
 ```
 boto3                     1.17.3
@@ -41,8 +42,8 @@ typing-extensions         3.7.4.3
 urllib3                   1.26.3
 ```
 
-### Run 
-Below is an exemplary command.
+### Demo
+Below is an exemplary command to detect atoms to train a CNN and using HAADF-STEM images detect atoms from other images.
 ```
 python dl_full_pipeline.py Rebpy basic dataset/Re_detection.csv -t 0.3
 ```
@@ -50,18 +51,24 @@ This will perform the following works
  1. Generate a crops dataset using the imageset and the coordination data
  2. Training the CNN
  3. Detect atoms in the images marked as test in the dataset file
+The operation time is less than 1 hour with 4 GPUs. It will be less than 6 hours in a "normal" desktop computer.
 
 ```
 python Mark_on_image.py
 ```
 This will calculate the surface coveraged from the image, mark the atoms on the image, and save them in the output folder under data/tif_data folder.
 
-# K-function 
+```
+python TH_filtering.py
+```
+This will detect atoms on the same images using top-hat filtering.
+
+# K-function calculation using spatstat
 
 
 ## Installation and requirements
 ```
-The code was tested under following environment /n
+The code was tested under following environment
 
 RStudio 2023.06.1+524 "Mountain Hydrangea" Release (547dcf861cac0253a8abb52c135e44e02ba407a1, 2023-07-07) for windows
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) RStudio/2023.06.1+524 Chrome/110.0.5481.208 Electron/23.3.0 Safari/537.36
