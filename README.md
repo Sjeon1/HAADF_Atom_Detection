@@ -6,7 +6,7 @@ https://github.com/HPAI-BSC/AtomDetection_ACSTEM
 This code works under the same principle with the original code, but we are uploading our version because to address the compatibility issue
 
 ### Package versions
-The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS
+The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
 
 ```
 boto3                     1.17.3
@@ -40,6 +40,8 @@ torch                     1.8.1
 torchvision               0.9.1
 typing-extensions         3.7.4.3
 urllib3                   1.26.3
+scikit-image              0.19.3
+opencv-python             4.5.1.48
 ```
 
 ### Demo
