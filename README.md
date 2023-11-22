@@ -3,7 +3,7 @@ This code is a modified version of the original code by Mitchell at al.
 https://pubs.acs.org/doi/10.1021/jacs.1c12466
 https://github.com/HPAI-BSC/AtomDetection_ACSTEM
 
-This code works under the same principle with the original code, but we are uploading our version because to address the compatibility issue
+This code works under the same principle with the original code, but we are uploading our version to address the compatibility issue.
 
 ### Package versions
 The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
