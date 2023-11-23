@@ -1,4 +1,4 @@
-This repository includes codes used to arrive the results in the paper below.
+This repository includes codes used to deduce the results in the paper below.
 Aberration-Corrected STEM to Determine the Surface Coverage and Distribution of Immobilized Molecular Complexes
 https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
 
