@@ -63,6 +63,7 @@ This will perform the following works
  1. Generate a crops dataset using the imageset and the coordination data
  2. Training the CNN
  3. Detect atoms in the images marked as test in the dataset file
+
 The operation time is less than 1 hour in a "normal" desktop computer.
 
 ```
