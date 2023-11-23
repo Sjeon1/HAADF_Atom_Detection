@@ -55,7 +55,7 @@ openpyxl                  3.1.2
 ```
 
 ### Demo
-Below is an exemplary command to detect atoms to train a CNN and using HAADF-STEM images detect atoms from other images.
+Below is an exemplary command to train a CNN using HAADF-STEM images and detect atoms from another image.
 ```
 python dl_full_pipeline.py Rebpy basic dataset/Re_detection.csv -t 0.7
 ```
