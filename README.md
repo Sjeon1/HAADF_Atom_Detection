@@ -57,7 +57,7 @@ urllib3                   1.26.3
 Below is an exemplary command to train a CNN using HAADF-STEM images and detect atoms from another image.
 
 ```
-python dl_full_pipeline.py Rebpy basic dataset/Re_detection.csv -t 0.7
+python dl_full_pipeline.py Rebpy basic dataset/Re_detection.csv -t 0.6
 ```
 This will perform the following works
  1. Generate a crops dataset using the imageset and the coordination data
