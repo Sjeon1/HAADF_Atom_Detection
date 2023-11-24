@@ -72,6 +72,8 @@ The operation time is less than 1 hour in a "normal" desktop computer.
 The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
 
 ```
+pandas                    1.2.2
+matplotlib                3.5.3
 scikit-image              0.19.3
 opencv-python             4.5.1.48
 openpyxl                  3.1.2
