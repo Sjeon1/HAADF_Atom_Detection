@@ -51,13 +51,11 @@ torch                     1.8.1
 torchvision               0.9.1
 typing-extensions         3.7.4.3
 urllib3                   1.26.3
-scikit-image              0.19.3
-opencv-python             4.5.1.48
-openpyxl                  3.1.2
 ```
 
 ### Demo
 Below is an exemplary command to train a CNN using HAADF-STEM images and detect atoms from another image.
+
 ```
 python dl_full_pipeline.py Rebpy basic dataset/Re_detection.csv -t 0.7
 ```
@@ -68,17 +66,32 @@ This will perform the following works
 
 The operation time is less than 1 hour in a "normal" desktop computer.
 
+## Python codes to visualize the detection and calculate the surface coverage of the catalysts
+
+### Package versions
+The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
+
+```
+scikit-image              0.19.3
+opencv-python             4.5.1.48
+openpyxl                  3.1.2
+```
+
+
+### Demo
+The first code (Atomic detection) should be run before running this code.
 ```
 python Mark_on_image.py
 ```
 This code calculates the surface coverage from the atomic detection result, marks the atoms on the image, and saves them in the output folder.
+(Results will be saved in tif_data folder)
 
 ```
 python TH_filtering.py
 ```
 This code detects atoms on the same images using top-hat filtering.
 
-# K-function calculation using spatstat
+# R codes to calculate Ripley's K-function using the detection result
 
 
 ## Installation and requirements
@@ -97,4 +110,14 @@ install.packages(c('ggplot2', 'spatstat', 'dplyr'))
 ggplot2: 3.4.3
 spatstat: 3.0-6
 dplyr: 1.1-2
+```
+
+## Demo
+
+```
+Rscript Kfunction_data.R
+```
+The code calculates and generates the K function using the detection result. The result will be saved in the same folder as the code.
+```
+Rscript Kfunction_clustered.R
 ```
