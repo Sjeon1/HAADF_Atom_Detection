@@ -2,7 +2,7 @@ This repository contains simplified software used to write a paper
 Aberration-Corrected STEM to Determine the Surface Coverage and Distribution of Immobilized Molecular Complexes
 https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
 
-# Tools to analyze STEM images of immobilized molecular catalysts
+# A Tool for the Quantitative Characterization of Immobilized Molecular Catalysts Using HAADF-STEM
 
 This repository includes
 1) A framework to train CNN for Metal atom detection in HAADF-STEM images with demonstration data
@@ -11,7 +11,9 @@ This repository includes
 
 ## A framework to train CNN for Metal atom detection in HAADF-STEM images with demonstration data
 The code is a modified code of the original code published below
+
 https://pubs.acs.org/doi/10.1021/jacs.1c12466
+
 https://github.com/HPAI-BSC/AtomDetection_ACSTEM
 
 ### Package versions
