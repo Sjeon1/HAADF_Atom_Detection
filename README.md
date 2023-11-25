@@ -16,6 +16,10 @@ https://pubs.acs.org/doi/10.1021/jacs.1c12466
 
 https://github.com/HPAI-BSC/AtomDetection_ACSTEM
 
+We included CNN models which can detect metal atoms in Re-ᴿ(bpy)CO<sup>3</sup>Cl or Pt
+
+
+This code works well with 16 bit grayscale images. 
 ### Package versions
 The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
 
@@ -57,7 +61,8 @@ urllib3                   1.26.3
 Below is an exemplary command to train a CNN using HAADF-STEM images and detect atoms from another image.
 
 ```
-python dl_full_pipeline.py Rebpy basic dataset/Re_detection.csv -t 0.6
+python dl_full_pipeline.py Rebpy basic dataset/Re_detection.csv -t 0.7
+python dl_full_pipeline.py PtPorph basic dataset/Pt_detection.csv -t 0.7
 ```
 This will perform the following works
  1. Generate a crops dataset using the imageset and the coordination data
@@ -81,17 +86,17 @@ openpyxl                  3.1.2
 
 
 ### Demo
-The first code (Atomic detection) should be run before running this code.
+One of the first codes for atomic detection (or both) should be run before running this code.
 ```
 python Mark_on_image.py
 ```
 This code calculates the surface coverage from the atomic detection result, marks the atoms on the image, and saves them in the output folder.
-(Results will be saved in tif_data folder)
+(Results will be saved in the "Results" folder in the tif_data folder)
 
 ```
 python TH_filtering.py
 ```
-This code detects atoms on the same images using top-hat filtering.
+This code detects atoms on the same images using top-hat filtering which were used for comparison.
 
 # R codes to calculate Ripley's K-function using the detection result
 
