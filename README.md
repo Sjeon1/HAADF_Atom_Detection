@@ -16,7 +16,9 @@ https://pubs.acs.org/doi/10.1021/jacs.1c12466
 
 https://github.com/HPAI-BSC/AtomDetection_ACSTEM
 
-We included CNN models which can detect metal atoms in Re-ᴿ(bpy)CO<sup>3</sup>Cl or Pt
+We included CNN models that can detect metal atoms introduced in this paper.
+https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
+
 
 
 This code works well with 16 bit grayscale images. 
