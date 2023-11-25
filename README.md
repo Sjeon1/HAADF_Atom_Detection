@@ -16,12 +16,14 @@ https://pubs.acs.org/doi/10.1021/jacs.1c12466
 
 https://github.com/HPAI-BSC/AtomDetection_ACSTEM
 
-We included CNN models that can detect metal atoms introduced in this paper.
+We included CNN models that can detect molecular catalysts introduced in this paper.
+
 https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
 
+We also included training materials used to train the model: i)HAADF-STEM images of the sample and ii)coordinates of the catalysts in those images.
 
+This code works well with grayscale 16 bit images.
 
-This code works well with 16 bit grayscale images. 
 ### Package versions
 The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
 
@@ -60,16 +62,16 @@ urllib3                   1.26.3
 ```
 
 ### Demo
-Below is an exemplary command to train a CNN using HAADF-STEM images and detect atoms from another image.
+Below is exemplary commands to train a CNN using HAADF-STEM images and detect atoms from another image.
 
 ```
 python dl_full_pipeline.py Rebpy basic dataset/Re_detection.csv -t 0.7
 python dl_full_pipeline.py PtPorph basic dataset/Pt_detection.csv -t 0.7
 ```
 This will perform the following works
- 1. Generate a crops dataset using the imageset and the coordination data
- 2. Training the CNN
- 3. Detect atoms in the images marked as test in the dataset file
+ 1. Generate a crops of the imageset and the coordinate data
+ 2. Training the CNN using the dataset
+ 3. Detect atoms in another images
 
 The operation time is less than 1 hour in a "normal" desktop computer.
 
@@ -88,7 +90,7 @@ openpyxl                  3.1.2
 
 
 ### Demo
-One of the first codes for atomic detection (or both) should be run before running this code.
+One of the first codes for atomic detection (or both of the codes) should be run before running this code.
 ```
 python Mark_on_image.py
 ```
