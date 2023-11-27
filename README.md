@@ -131,7 +131,7 @@ dplyr: 1.1-2
 ```
 Rscript Kfunction_data.R
 ```
-The code above calculates and generates the K function using the detection result. The result will be saved in the same folder as the code.
+The code above calculates and generates the K function using the detection result. The result will be saved in the same folder with the R file.
 ```
 Rscript Kfunction_clustered.R
 Rscript Kfunction_dispersed.R
