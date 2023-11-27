@@ -90,7 +90,7 @@ openpyxl                  3.1.2
 
 
 ### Demo
-One of the first codes for atomic detection (or both of the codes) should be run before running this code.
+One of the codes above should be run before running this code because it requires the atomic detection result.
 ```
 python Mark_on_image.py
 ```
