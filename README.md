@@ -22,7 +22,7 @@ https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
 
 We also included training materials used to train the model: i)HAADF-STEM images of the sample and ii)coordinates of the catalysts in those images.
 
-This code works well with grayscale 16 bit images.
+This code works with grayscale 16 bit images.
 
 ### Package versions
 The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
