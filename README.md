@@ -9,7 +9,7 @@ This repository includes
 2) Python codes to visualize the detection and calculate the surface coverage of the catalysts
 3) R codes to calculate Ripley's K-function using the detection result.
 
-## A framework to train CNN for Metal atom detection in HAADF-STEM images with demonstration data
+## 1) A framework to train CNN for Metal atom detection in HAADF-STEM images with demonstration data
 The code is a modified code of the original code published below
 
 https://pubs.acs.org/doi/10.1021/jacs.1c12466
@@ -75,7 +75,7 @@ This will perform the following works
 
 The operation time is less than 1 hour in a "normal" desktop computer.
 
-## Python codes to visualize the detection and calculate the surface coverage of the catalysts
+## 2) Python codes to visualize the detection and calculate the surface coverage of the catalysts
 
 ### Package versions
 The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
@@ -102,7 +102,7 @@ python TH_filtering.py
 ```
 This code detects atoms on the same images using top-hat filtering which were used for comparison.
 
-## R codes to calculate Ripley's K-function from the detection result
+## 3) R codes to calculate Ripley's K-function from the detection result
 
 
 ### Installation and requirements
