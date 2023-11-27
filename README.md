@@ -102,10 +102,10 @@ python TH_filtering.py
 ```
 This code detects atoms on the same images using top-hat filtering which were used for comparison.
 
-# R codes to calculate Ripley's K-function using the detection result
+## R codes to calculate Ripley's K-function from the detection result
 
 
-## Installation and requirements
+### Installation and requirements
 The code was tested under following environment
 ```
 
@@ -119,14 +119,14 @@ Users should install the following packages from an `R` terminal:
 install.packages(c('ggplot2', 'spatstat', 'dplyr'))
 ```
 
-## Package Versions
+### Package Versions
 ```
 ggplot2: 3.4.3
 spatstat: 3.0-6
 dplyr: 1.1-2
 ```
 
-## Demo
+### Demo
 
 ```
 Rscript Kfunction_data.R
