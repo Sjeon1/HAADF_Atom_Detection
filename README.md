@@ -1,4 +1,4 @@
-This repository contains simplified software used to write a paper
+This repository contains software used to write a paper
 Aberration-Corrected STEM to Determine the Surface Coverage and Distribution of Immobilized Molecular Complexes
 https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
 
