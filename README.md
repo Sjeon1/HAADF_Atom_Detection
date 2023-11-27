@@ -16,7 +16,7 @@ https://pubs.acs.org/doi/10.1021/jacs.1c12466
 
 https://github.com/HPAI-BSC/AtomDetection_ACSTEM
 
-We included CNN models that can detect molecular catalysts introduced in this paper.
+On top of this software, we included CNN models that can detect molecular catalysts introduced in this paper.
 
 https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
 
