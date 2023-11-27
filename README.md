@@ -71,7 +71,7 @@ python dl_full_pipeline.py PtPorph basic dataset/Pt_detection.csv -t 0.7
 This will perform the following works
  1. Generate a crops of the imageset and the coordinate data
  2. Training the CNN using the dataset
- 3. Detect atoms in another image
+ 3. Detect atoms in a representative image
 
 The operation time is less than 1 hour in a "normal" desktop computer.
 
