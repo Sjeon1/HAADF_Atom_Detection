@@ -18,7 +18,7 @@ https://github.com/HPAI-BSC/AtomDetection_ACSTEM
 
 On top of this software, we included CNN models that can detect molecular catalysts introduced in this paper.
 
-https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
+https://www.cell.com/matter/fulltext/S2590-2385(24)00588-5
 
 We also included training materials used to train the model: i)HAADF-STEM images of the sample and ii)coordinates of the catalysts in those images.
 
