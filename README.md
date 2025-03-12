@@ -25,7 +25,7 @@ We also included training materials used to train the model: i)HAADF-STEM images
 This code works with grayscale 16 bit images.
 
 ### Package versions
-The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
+The code was tested on python 3.13.2 and Ubuntu 20.04.4 LTS with packages below.
 
 ```
 numpy                     2.2.3
