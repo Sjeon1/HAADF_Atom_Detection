@@ -1,6 +1,6 @@
 This repository contains software used to write a paper
-Aberration-Corrected STEM to Determine the Surface Coverage and Distribution of Immobilized Molecular Complexes
-https://chemrxiv.org/engage/chemrxiv/article-details/65491d5dc573f893f1eecd85
+Statistical analysis of HAADF-STEM images to determine the surface coverage and distribution of immobilized molecular complexes
+https://www.cell.com/matter/fulltext/S2590-2385(24)00588-5
 
 # Tools for the Quantitative Characterization of Immobilized Molecular Catalysts Using HAADF-STEM
 
