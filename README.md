@@ -28,37 +28,13 @@ This code works with grayscale 16 bit images.
 The code was tested on python 3.7.6 and Ubuntu 20.04.4 LTS with packages below.
 
 ```
-boto3                     1.17.3
-botocore                  1.20.3
-cycler                    0.10.0
-decorator                 4.4.2
-imageio                   2.9.0
-jmespath                  0.10.0
-joblib                    1.0.1
-kiwisolver                1.4.4
-matplotlib                3.5.3
-networkx                  2.5.1
-numpy                     1.20.1
-opencv-contrib-python     4.5.1.48
-opencv-python             4.5.1.48
-pandas                    1.2.2
-pillow                    8.1.0
-pyparsing                 2.4.7
-python-dateutil           2.8.1
-pytz                      2021.1
-pywavelets                1.1.1
-s3transfer                0.3.4
-scikit-image              0.19.3
-scikit-learn              0.24.1
-scipy                     1.6.0
-seaborn                   0.11.1
-six                       1.15.0
-threadpoolctl             2.1.0
-tifffile                  2021.2.1
-torch                     1.8.1
-torchvision               0.9.1
-typing-extensions         3.7.4.3
-urllib3                   1.26.3
+numpy                     2.2.3
+pandas                    2.2.3
+pillow                    11.1.0
+python                    3.13.2
+pytorch                   2.6.0
+scipy                     1.15.1
+torchvision               0.21.0
 ```
 
 ### Demo
